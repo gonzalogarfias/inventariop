@@ -1,0 +1,26 @@
+{
+  "name": "inventario-app",
+  "version": "1.0.0",
+  "description": "Sistema de Inventario con trazabilidad de usuarios",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": [
+    "inventario",
+    "electron",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^9.2.2",
+    "date-fns": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^26.8.1"
+  }
+}
